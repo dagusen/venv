@@ -6,7 +6,7 @@ from django.http import HttpResponse
 
 def home(request):
 	#f strings
-	html_var = 'f strings'
+	html_var = 'Louis gwapo'
 	html_ = f"""<!DOCTYPE html>
 	<html lang=en>
 	<head>
