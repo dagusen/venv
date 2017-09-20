@@ -1,0 +1,1 @@
+template inheretance 1:08:40
