@@ -4,7 +4,7 @@
 	</head>
 	<body>
 		<h1>Hello World!</h1>
-		<p>This is {{ html_var }} coming through</p>
+		<p>This is <code>{% verbatim %}{{ html_var }} {% endverbatim %}</code> coming through</p>
 		{% if bool_item %}
 		<p>Random numbers : {{ num }}</p>
 		{% endif %}
