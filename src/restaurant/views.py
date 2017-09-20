@@ -21,10 +21,16 @@ from django.http import HttpResponse
 #  	return HttpResponse(html_)
 
 def home(request):
-	num = random.randint(0, 1000000)
-	some_list = [num, random.randint(0, 1000000), random.randint(0, 1000000)]
+	num = None
+	some_list = [
+		random.randint(0, 1000000),
+		random.randint(0, 1000000),
+		random.randint(0, 1000000),
+	]
+	condition_bool_item = True
+	if condition_bool_item:
+		num = random.randint(0, 1000000)
 	context = {
-		"bool_item": True,
 		"num" : num,
 		"some_list": some_list
 	}
